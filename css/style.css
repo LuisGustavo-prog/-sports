@@ -149,3 +149,27 @@ aside {
   font-size: 14px;
   color: #ccc;
 }
+
+/* Barra de pesquisa */
+
+.navegation-bar {
+    margin-top: 50px;
+}
+
+.navegation-bar div {
+    margin: auto;
+}
+
+.btn-roxo {
+    background-color: #6f42c1; /* roxo Bootstrap padrão */
+    color: white;
+    border: none;
+}
+
+.btn-roxo:hover {
+    background-color: #5a3491; /* roxo mais escuro no hover */
+}
+
+.btn-roxo:active {
+    background-color: #602e9e; /* roxo mais escuro ao clicar */
+}
