@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --color-primaria: #2D2E32;
+    --color-secundaria: #16171B;
+    --color-terciaria: #6C5CE7;
+
+    --font: 'Roboto', serif;
+
+}
+
+body {
+    background-color: var(--color-primaria);
+    font-family: var(--font);
+}
+
+header {
+    box-shadow: 10px 10px 10px 0px rgba(3, 3, 3, 0.37);
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a {
+    color: #2D0233;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.nav-one {
+    display: flex;
+    align-items: center;
+    background: var(--color-terciaria);
+    height: 7vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+    margin-right: 0px;
+}
+
+/* Parte das categorias */
+.section-categoria {
+    border-top: 2px solid rgba(0, 0, 0, 0.582);
+    width: 100%;
+    display: flex;
+    border-radius: 8px;
+}
+
+.section-categoria h1 {
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.section-categoria ul {
+    font-size: 18px;
+}
+
+.opções {
+    background-color: var(--color-terciaria);
+    color: white;
+    padding: 20px;
+    max-width: 800px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 0 10px #00000050;
+}
+
+aside {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.noticias-container {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 20px;
+  max-width: 800px;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00000050;
+}
+
+.noticias-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #6c63ff;
+  padding-bottom: 10px;
+}
+
+.noticia {
+  margin-bottom: 20px;
+}
+
+.noticias-ney {
+    margin-left: 20px;
+}
+
+.noticia h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #6c63ff;
+}
+
+.noticia p {
+  font-size: 14px;
+  color: #ccc;
+}
