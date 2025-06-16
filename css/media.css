@@ -44,6 +44,11 @@
     display: block;
     margin: 0;
   }
+
+  .navegation-bar {
+    width: 350px;
+    margin: auto;
+}
 }
 
 .nav-list.active {
