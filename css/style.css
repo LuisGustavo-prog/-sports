@@ -46,13 +46,13 @@ a:hover {
     display: flex;
     align-items: center;
     background: var(--color-terciaria);
-    height: 7vh;
+    height: 60px;
 }
 
 .nav-list {
     list-style: none;
     display: flex;
-    margin-top: 10px;
+    margin-top: 11px;
 }
 
 .nav-list li {
